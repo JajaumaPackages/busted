@@ -9,7 +9,7 @@
 
 Name:           busted
 Version:        %{vermagic1}_%{vermagic2}
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Lua unit testing framework
 
 License:        MIT
@@ -35,6 +35,7 @@ Requires:       lua-say
 Requires:       lua-filesystem
 Requires:       lua-luassert
 Requires:       lua-mediator
+Requires:       luacov
 
 %description
 An elegant, extensible, testing framework. Ships with a large amount of useful
@@ -72,5 +73,8 @@ install -p -m644 -D completions/zsh/_busted \
 
 
 %changelog
+* Thu May 19 2016 Jajauma's Packages <jajauma@yandex.ru> - 2.0.rc11_0-2
+- Require luacov
+
 * Thu May 19 2016 Jajauma's Packages <jajauma@yandex.ru> - 2.0.rc11_0-1
 - Public release
