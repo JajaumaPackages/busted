@@ -28,7 +28,6 @@ Requires:       lua(abi) >= %{luaver}
 Requires:       lua-penlight
 Requires:       lua-term
 Requires:       lua-dkjson
-Requires:       lua-dkjson
 Requires:       lua-socket
 Requires:       lua-cliargs
 Requires:       lua-say
